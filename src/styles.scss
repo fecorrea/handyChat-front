@@ -1,1 +1,75 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+body{
+    color: #575756;
+}
+
+.toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    color: white;
+    font-weight: 600;
+}
+
+.imgLogo{
+    margin: 0 16px;
+    max-width: 100%;
+}
+
+.negrilla{
+    font-weight: bold !important;
+}
+
+.content {
+    display: flex;
+    margin: 25vh  auto 32px;
+    padding: 0 16px;
+    max-width: 960px;
+    flex-direction: column;
+    align-items: center;
+}
+  .bgLogin{
+    background-color: #f6f6f6;
+    border: 1px solid #aaa;
+    padding: 3% 8%;
+    border-radius: 10px;
+}
+.btnLogin{
+    color: white;
+    background-color: #40B4E6;
+    border-radius: 30px;
+    padding: 6px 25px;
+    font-size: 1rem;
+}
+.bgImage{
+    background-image: url('https://www.handytec.mobi/images/backgrounds/imagen_gobernanza.png');
+    background-color: #1D1D1B;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 100vh;
+}
+.bordeAbajoCeleste{
+    border-bottom: 3px solid #40B4E6;
+}
+.btnEnviar{
+    color: white;
+    background-color: #40B4E6;
+    border-radius: 30px;
+    padding: 6px 25px;
+    font-size: 1rem;
+    border: 1px solid #fff;
+}
+.btnEnviar:hover, .btnLogin:hover {
+    color: #dadada;
+    text-decoration: none;
+}
