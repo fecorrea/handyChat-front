@@ -4,8 +4,8 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class ApiService {
-  path:string = "http://localhost:3000/";
-
+  //path:string = "http://localhost:3000/";
+  path:string = "https://chat-node-back.herokuapp.com/";
   constructor(protected http: HttpClient) { }
 
   getUsers() {
